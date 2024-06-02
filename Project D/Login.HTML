@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="Login_styles.CSS">
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="Project_D.html" class="nav__logo">
+                 <img class="logo2"   src="aduro_logo.png" alt="Aduro logo">
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="https://www.aduro.dk/om-aduro/" class="nav__link">OM_ADURO</a></li>
+                 <li><a href="https://www.aduro.dk/miljoe" class="nav__link">MILJØ</a></li>
+                 <li><a href="https://www.aduro.dk/garanti" class="nav__link">GARANTI</a></li>
+                 <li><a href="https://www.aduro.dk/download" class="nav__link">DOWNLOAD</a></li>
+                 <li><a href="https://aduroshop.dk/" class="nav__link">SHOP</a></li>
+
+
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       PRODUKTER <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <!--=============== SUB DROPDOWN 1 ===============-->
+                    <ul class="dropdown__menu">
+                       <li class="dropdown__subitem"> 
+                          <div class="dropdown__link">
+                            <i></i> OVNE <i class="ri-add-line dropdown__add"></i>
+                          </div>
+
+                          <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="https://www.aduro.dk/aduro-braendeovne/braendeovn/" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> BRÆNDEOVNE
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="https://www.aduro.dk/aduro-hybrid" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> HYBRIDOVNE
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="https://www.aduro.dk/aduro-pilleovne/pilleovne/" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> PILLEOVNE
+                                 </a>
+                              </li>
+
+                              <li>
+                                <a href="https://www.aduro.dk/aduro-biopejse/biopejse" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i> BIOPEJSE
+                                </a>
+                             </li>
+                          </ul>
+                      </li>
+
+
+                       <li>
+                          <a href="https://www.aduro.dk/tilbehoer" class="dropdown__link">
+                             <i ></i> TILBEHØR
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="https://www.aduro.dk/skorsten" class="dropdown__link">
+                             <i ></i> SKORSTEN
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="https://www.aduro.dk/outdoor" class="dropdown__link">
+                             <i ></i> OUTDOOR
+                          </a>                          
+                       </li>
+                    </ul>
+                 </li>
+
+                 <li><a href="https://www.aduro.dk/kundeservice/" class="nav__link">KUNDESERVICE</a></li>
+                 <li><a href="https://www.aduro.dk/forhandlere/" class="nav__link">FORHANDLERE</a></li>
+                 <li><a href="Login.HTML" class="nav__link">LOGIN/REGISTRERING</a></li>
+
+              </ul>
+           </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <script src="Login_javascript.JS"></script>
+</body>
+</html>
